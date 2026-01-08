@@ -1,0 +1,67 @@
+## Visual Studio files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.userprefs
+
+## Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+
+## Visual Studio cache/options directory
+.vs/
+
+## Build outputs
+*.dll
+*.exe
+*.pdb
+*.cache
+*.xml
+!*.vbproj
+!App.config
+
+## SQLite database (keep the schema, but not runtime database)
+journal.db
+journal.db-journal
+*.db-journal
+
+## NuGet Packages
+*.nupkg
+**/packages/*
+!**/packages/build/
+
+## Others
+*.log
+*.tlog
+*.obj
+*.iobj
+*.pch
+*.ipch
+*.ilk
+*.exp
+*.idb
+*.ipdb
+*.pgc
+*.pgd
+*.rsp
+*.sbr
+*.tlb
+*.tli
+*.tlh
+*.tmp
+*.tmp_proj
+*.vspscc
+*.vssscc
+.builds
+*.pidb
+*.svclog
+*.scc
